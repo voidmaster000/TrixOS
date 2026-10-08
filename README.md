@@ -7,11 +7,9 @@
 [![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/UnknownCoder56/TrixOS)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010-lightgrey.svg)](https://github.com/UnknownCoder56/TrixOS)
 [![Language](https://img.shields.io/badge/language-QB64%20BASIC-orange.svg)](https://github.com/UnknownCoder56/TrixOS)
-[![License](https://img.shields.io/badge/license-Closed%20Source-red.svg)](https://github.com/UnknownCoder56/TrixOS)
+[![License](https://img.shields.io/badge/license-Source%20Available-green.svg)](https://github.com/UnknownCoder56/TrixOS)
 
 An application-based operating system simulation built with QB64. TrixOS provides a well-designed command prompt experience with MS-DOS inspired commands and a collection of useful utility programs.
-
-> **Note**: TrixOS 2.0 is a closed-source release. The codebase was lost, but the binary executable is available in the [releases](https://github.com/UnknownCoder56/TrixOS/releases/tag/2.0). For the open-source version with code, see [ArpanOS 1.0.5.0](https://github.com/UnknownCoder56/TrixOS/releases/tag/1.0.5.0).
 
 ## ⚠️ Important Information
 
@@ -65,19 +63,24 @@ An application-based operating system simulation built with QB64. TrixOS provide
 
 ```
 TrixOS/
-├── ARPAN_OS.EXE          # ArpanOS 1.0.5.0 executable (legacy)
-├── ARPAN_OS.BAS          # ArpanOS 1.0.5.0 source code (legacy)
-├── README.md             # This documentation file
-├── README FIRST!.txt     # ArpanOS quick start guide (legacy)
-└── _config.yml           # GitHub Pages configuration
+├── ArpanOS/                     # ArpanOS 1.0.5.0 (legacy, open source)
+│   ├── ARPAN_OS.BAS             # ArpanOS source code
+│   └── PASSWORD.txt             # Password information
+├── TrixOS/                      # TrixOS 2.0
+│   ├── TRIXOS.BAS               # TrixOS 2.0 source code (QB64)
+│   ├── trixos.ico               # Application icon (referenced by $EXEICON)
+│   └── PASSWORD.txt             # Password information
+├── README.md                    # This documentation file
+└── trixos.png                   # TrixOS logo
 ```
 
-**For TrixOS 2.0**: Download the binary from the [releases page](https://github.com/UnknownCoder56/TrixOS/releases/tag/2.0).
+**Running TrixOS 2.0**: download the binary from the [releases page](https://github.com/UnknownCoder56/TrixOS/releases/tag/2.0), or build it from source:
+compile `TrixOS/TRIXOS.BAS` with [QB64](https://github.com/QB64-Phoenix-Edition/QB64pe) — copy `TrixOS/trixos.ico` into the QB64 installation folder first (QB64 resolves the `$EXEICON` reference from there).
 
 ## 🛠️ Technical Details
 
 - **Programming Language**: QB64 BASIC
-- **Current Version**: 2.0 (TrixOS - Closed Source)
+- **Current Version**: 2.0 (TrixOS)
 - **Legacy Version**: 1.0.5.0 (ArpanOS - Open Source)
 - **Interface**: Command-line with MS-DOS inspired commands
 - **Display Language**: English
@@ -113,16 +116,14 @@ TrixOS/
 
 ### Project Evolution
 - **ArpanOS (2020)**: The original open-source version with learning-focused code
-- **TrixOS 2.0 (2020)**: Enhanced closed-source release with improved UI and stability
+- **TrixOS 2.0 (2020)**: Enhanced release with improved UI and stability
 
 *TrixOS provides the feeling of a well-designed command prompt that brings back the spirit of classic computing interfaces.*
 
 ## 📜 License & Usage Terms
 
-- **TrixOS 2.0**: Closed-source release (binary only available)
-- **ArpanOS 1.0.5.0**: Source code available for reference and educational purposes
-- The ArpanOS source code is provided for learning and inspiration
-- Please do not modify the ArpanOS source code
+- Both TrixOS 2.0 and ArpanOS 1.0.5.0 are available for reference and educational purposes
+- Please do not modify the source code
 - Safe to use - does not modify system files or install additional components
 
 ## 🐛 Bug Reports & Feedback
@@ -138,8 +139,6 @@ Note: Both ArpanOS and TrixOS have been tested for stability. Issues may occur d
 ## 🔄 Version History
 
 ### TrixOS 2.0 (September 25, 2020) - Current Release
-- **Status**: Closed-source, binary-only release
-- **Codebase**: Lost, executable preserved in releases
 - **Major Changes**:
   - New InfoBar with command reference
   - Auto-cleanup CUI screen
@@ -160,7 +159,7 @@ Note: Both ArpanOS and TrixOS have been tested for stability. Issues may occur d
 
 ## 🤝 Contributing
 
-This project represents a snapshot of a personal learning journey in operating system development. While the TrixOS 2.0 codebase is no longer available, the ArpanOS source code remains accessible for educational purposes.
+This project represents a snapshot of a personal learning journey in operating system development.
 
 Feedback and suggestions are always welcome via email!
 
@@ -177,5 +176,5 @@ If you find TrixOS interesting:
 
 ## 📥 Download
 
-- **[TrixOS 2.0 (Latest)](https://github.com/UnknownCoder56/TrixOS/releases/tag/2.0)** - Enhanced version with improved UI (binary-only)
+- **[TrixOS 2.0 (Latest)](https://github.com/UnknownCoder56/TrixOS/releases/tag/2.0)** - Enhanced version with improved UI
 - **[ArpanOS 1.0.5.0](https://github.com/UnknownCoder56/TrixOS/releases/tag/1.0.5.0)** - Original version with source code
