@@ -5,9 +5,10 @@
 # TrixOS
 
 [![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/UnknownCoder56/TrixOS)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010-lightgrey.svg)](https://github.com/UnknownCoder56/TrixOS)
+[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://github.com/UnknownCoder56/TrixOS)
 [![Language](https://img.shields.io/badge/language-QB64%20BASIC-orange.svg)](https://github.com/UnknownCoder56/TrixOS)
 [![License](https://img.shields.io/badge/license-Source%20Available-green.svg)](https://github.com/UnknownCoder56/TrixOS)
+[![Website](https://img.shields.io/badge/website-GitHub%20Pages-brightgreen.svg)](https://voidmaster000.github.io/TrixOS/)
 
 An application-based operating system simulation built with QB64. TrixOS provides a well-designed command prompt experience with MS-DOS inspired commands and a collection of useful utility programs.
 
